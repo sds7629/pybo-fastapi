@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pybo"
+version = "0.1.0"
+description = ""
+authors = ["sds7629 <sds7629@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.106.0"
+uvicorn = {extras = ["standard"], version = "^0.25.0"}
+sqlalchemy = "^2.0.23"
+alembic = "^1.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
